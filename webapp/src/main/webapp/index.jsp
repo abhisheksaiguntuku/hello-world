@@ -1,45 +1,174 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
-    <title>Hello World</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyShop - Online Store</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
 
-    <!-- Custom CSS -->
-    <style>
-    .header-section {
-        padding: 100px 0;
-        background: url('header-background.jpg') no-repeat center center;
-        background-size: cover;
-        color: white;
-        text-align: center;
-    }
+/* Navbar */
+.navbar {
+    background: #131921;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .navbar {
-        background-color: rgba(255,255,255,0.8);
-    }
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
 
-    .navbar-light .navbar-nav .nav-link {
-        color: rgba(0,0,0,0.7);
-    }
+.search-box {
+    width: 40%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
 
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: rgba(0,0,0,0.9);
-    }
-    </style>
+.nav-links span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Products */
+.container {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 22%;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+}
+
+.price {
+    color: #B12704;
+    font-weight: bold;
+}
+
+button {
+    background: #ffd814;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f7ca00;
+}
+
+/* Footer */
+.footer {
+    background: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+</style>
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-light">
-    <a class="navbar-brand" href="#">My App</a>
-</nav>
+<!-- Navbar -->
 
-<div class="header-section">
-    <h1>Welcome to Jenkins Deployment 🚀</h1>
-    <p>Deployed using CI/CD Pipeline</p>
+<div class="navbar">
+    <div class="logo">MyShop</div>
+    <input class="search-box" type="text" placeholder="Search products...">
+    <div class="nav-links">
+        <span>Login</span>
+        <span>Orders</span>
+        <span>Cart 🛒</span>
+    </div>
+</div>
+
+<!-- Banner -->
+
+<div class="banner">
+    <h1>Welcome to MyShop 🛒</h1>
+    <p>Best Deals on Electronics & Fashion</p>
+</div>
+
+<!-- Products -->
+
+<div class="container">
+    <div class="products">
+
+```
+    <div class="card">
+        <img src="https://via.placeholder.com/200">
+        <h3>Smartphone</h3>
+        <p class="price">₹15,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200">
+        <h3>Laptop</h3>
+        <p class="price">₹55,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200">
+        <h3>Headphones</h3>
+        <p class="price">₹1,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200">
+        <h3>Smart Watch</h3>
+        <p class="price">₹3,499</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+```
+
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+    <p>© 2026 MyShop | Jenkins CI/CD Demo 🚀</p>
 </div>
 
 </body>
