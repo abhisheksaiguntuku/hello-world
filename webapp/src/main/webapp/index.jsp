@@ -110,7 +110,7 @@ button:hover {
 <!-- Navbar -->
 
 <div class="navbar">
-    <div class="logo">MyShop</div>
+    <div class="logo">Gautam Shop</div>
     <input class="search-box" type="text" placeholder="Search products...">
     <div class="nav-links">
         <span>Login</span>
