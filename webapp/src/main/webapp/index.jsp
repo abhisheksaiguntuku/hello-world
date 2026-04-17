@@ -122,7 +122,7 @@ button:hover {
 <!-- Banner -->
 
 <div class="banner">
-    <h1>Welcome to MyShop 🛒</h1>
+    <h1>Welcome to Gautam Shop 🛒</h1>
     <p>Best Deals on Electronics & Fashion</p>
 </div>
 
@@ -133,21 +133,21 @@ button:hover {
 
 ```
     <div class="card">
-        <img src="https://via.placeholder.com/200">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdmRkLSB2SpedTC0SBW8_48oW6gmfNWiWtzw&s" alt="phone">
         <h3>Smartphone</h3>
         <p class="price">₹15,999</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="https://via.placeholder.com/200">
+        <img src="https://images.unsplash.com/photo-1491472253230-a044054ca35f?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D" alt="laptop">
         <h3>Laptop</h3>
         <p class="price">₹55,999</p>
         <button>Add to Cart</button>
     </div>
 
     <div class="card">
-        <img src="https://via.placeholder.com/200">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7DMu-7O2189abNd7fPJCirKtnE_NiO93s_g&s" alt="headphones">
         <h3>Headphones</h3>
         <p class="price">₹1,999</p>
         <button>Add to Cart</button>
@@ -168,7 +168,7 @@ button:hover {
 <!-- Footer -->
 
 <div class="footer">
-    <p>© 2026 MyShop | Jenkins CI/CD Demo 🚀</p>
+    <p>© 2026 Gautam Shop | Jenkins CI/CD Demo 🚀</p>
 </div>
 
 </body>
