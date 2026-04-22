@@ -108,9 +108,9 @@ button:hover {
 <body>
 
 <!-- Navbar -->
-
+<h1> CI/CD WORKING</h1>
 <div class="navbar">
-    <div class="logo">Gautam Shop</div>
+    <div class="logo">MY Shopieeeee</div>
     <input class="search-box" type="text" placeholder="Search products...">
     <div class="nav-links">
         <span>Login</span>
