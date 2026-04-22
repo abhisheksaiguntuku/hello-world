@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MyShopieee - Online Store</title>
+<title>OUR Shopieee - Online Store</title>
 
 <style>
 body {
@@ -110,7 +110,7 @@ button:hover {
 <!-- Navbar -->
 <h1> CI/CD WORKING</h1>
 <div class="navbar">
-    <div class="logo">MY Shopieeeee</div>
+    <div class="logo">OUR Shopieeeee</div>
     <input class="search-box" type="text" placeholder="Search products...">
     <div class="nav-links">
         <span>Login</span>
@@ -122,7 +122,7 @@ button:hover {
 <!-- Banner -->
 
 <div class="banner">
-    <h1>Welcome to hiiiiiiiiiiiiiii Shop 🛒</h1>
+    <h1>Welcome to OUR Shop 🛒</h1>
     <p>Best Deals on Electronics & Fashion</p>
 </div>
 
